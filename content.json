@@ -1,0 +1,44 @@
+{
+  "about_me": {
+    "title": "About Me",
+    "intro": "Hello! I'm <span class='name_size hover-target'>Partha Batabyal</span>.",
+    "education": "I completed my 10th and 12th grades from Khukurdaha IC MM High School. Currently, I am pursuing a B.Tech in Computer Science and Engineering with a focus on AI/ML at Brainware University in Barasat, where I am in my 5th semester.",
+    "passion": "I have a strong passion for coding and technology, which has driven me to learn and work with a variety of programming languages including <span>HTML, CSS, JavaScript, Java, Python, C, and C++</span>.",
+    "future": "I'm excited about applying my skills to real-world problems and continuously exploring new advancements in the field of computer science.",
+    "contact": "Feel free to connect with me if you share similar interests or if you'd like to discuss potential opportunities!"
+  },
+  "swiper_data": [
+    {
+      "tooltip": "asking love",
+      "url": "https://your-brain.github.io/LoverBabu/"
+    },
+    {
+      "tooltip": "canvas",
+      "url": "https://partha-batabyal.github.io/canvas__op/"
+    },
+    {
+      "tooltip": "clock",
+      "url": "https://partha-batabyal.github.io/clockNoob/"
+    },
+    {
+      "tooltip": "image",
+      "url": "https://partha-batabyal.github.io/FattyImgFinder/"
+    },
+    {
+      "tooltip": "QR code",
+      "url": "https://your-brain.github.io/banaloQr/"
+    },
+    {
+      "tooltip": "weather",
+      "url": "https://partha-batabyal.github.io/FattyWeather/"
+    },
+    {
+      "tooltip": "my info",
+      "url": "https://your-brain.github.io/aboutPartha/"
+    },
+    {
+      "tooltip": "mess data",
+      "url": "https://partha-batabyal.github.io/messData/"
+    }
+  ]
+}

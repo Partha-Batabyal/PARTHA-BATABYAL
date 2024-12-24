@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* .page_inner_nav * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page_inner_nav body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+} */
+.page_inner_nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.page_inner_nav form h1 {
+    font-size: 30px;
+}
+
+.page_inner_nav .container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--form_color);
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.page_inner_nav .container p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.page_inner_nav .container span {
+    font-size: 12px;
+}
+
+.page_inner_nav .container a {
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.page_inner_nav .container button {
+    background-color: var(--form_bg_color);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.page_inner_nav .container button.hidden {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.page_inner_nav .container form {
+   background-color: var(--form_color);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+    gap: 10px;
+}
+
+.page_inner_nav .container input {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.page_inner_nav .form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.page_inner_nav .sign-in {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.page_inner_nav .container.active .sign-in {
+    transform: translateX(100%);
+}
+
+.page_inner_nav .sign-up {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.page_inner_nav .btnwra,
+.page_inner_nav .btnwraUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page_inner_nav .container.active .sign-up {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: move 0.6s;
+}
+
+@keyframes move {
+    0%,
+    49.99% {
+        opacity: 0;
+        z-index: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+.page_inner_nav .social-icons {
+    margin: 20px 0;
+}
+
+.page_inner_nav .social-icons a {
+    border: 1px solid var(--big_form_icon_boder_color);
+    border-radius: 20%;
+    display: inline-flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+}
+
+.page_inner_nav .toggle-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+}
+
+.page_inner_nav .container.active .toggle-container {
+    transform: translateX(-100%);
+    border-radius: 0 150px 100px 0;
+}
+
+.page_inner_nav .toggle {
+    background-color: var(--form_bg_color);
+    height: 100%;
+   background: linear-gradient(-10deg, var(--form_bg_color2), var(--form_bg_color));
+
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+.page_inner_nav .container.active .toggle {
+    transform: translateX(50%);
+}
+
+.page_inner_nav .toggle-panel {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top: 0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+.page_inner_nav .toggle-left {
+    transform: translateX(-200%);
+}
+
+.page_inner_nav .container.active .toggle-left {
+    transform: translateX(0);
+}
+
+.page_inner_nav .toggle-right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.page_inner_nav .container.active .toggle-right {
+    transform: translateX(200%);
+}
+
+
+.small_form{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: none ;
+
+
+    /* background-color: var(--form_bg_color2); */
+}
+.small_form textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #eee;
+
+}
+.small_form h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.small_form textarea:focus,
+
+.small_form input:focus,
+.form-container input:focus{
+    border: 1px solid var(--form_bg_color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.social-icons a:hover.icon{
+    background-color: var(--form_bg_color);
+    color: #fff;
+}
+.small_form input{
+    background-color: red;
+}
+/* *small_form */
+@media screen and (max-width: 768px) {
+    .page_inner_nav form h1 {
+        font-size: 20px;
+    }
+
+    .page_inner_nav form h2 {
+        display: none;
+    }
+    .page_inner_nav .container {
+        width: 100%;
+        max-width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page_inner_nav .container form {
+        /* background-color: red; */
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+    .page_inner_nav .btnwra button {
+        padding: 2px;
+        width: 70%;
+        height: 30px;
+    }
+
+    .page_inner_nav .inputsign {
+        width: 100%;
+    }
+
+    .page_inner_nav .social-icons {
+        display: none;
+    }
+    .display{
+        display: none;
+    }
+    .small_form{
+        display: block;
+    }
+
+}

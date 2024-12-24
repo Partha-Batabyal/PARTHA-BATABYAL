@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+  .Alternative-Theme #left {
+    width: 50%;
+  }
+  .box1_Txt{
+    height: 60%;
+  }
+  .box1_Txt > p{
+    font-size: 6vw;
+  }
+
+  .Alternative-Theme #right {
+    margin-left: 50%;
+    width: 50%;
+  }
+  .left_box_2 > .list{
+    padding: 10px 0;
+    height: 80%;
+  }
+  .left_box_2 > .list > ul{
+    padding: 6%;
+  }
+  .left_a{
+    height: 80%;
+    /* padding: 10px; */
+    font-size: 16px;
+    border-radius: 18px;
+  }
+  /* .sec2 {
+    height: auto !important;
+  } */
+}

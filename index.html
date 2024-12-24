@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/fab-icon.png"
+      type="image/x-icon"
+    />
+    <title>_F a t t y_</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <!-- Home Button Styles -->
+    <link rel="stylesheet" href="css/Homebtn.css" />
+
+    <!-- Form Styles -->
+    <link rel="stylesheet" href="css/form.css" />
+
+    <!-- Swiper Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/swiper.css" />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Remix Icon Styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Shery.js Recommended CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+
+    <!-- Loader Styles -->
+    <link rel="stylesheet" href="css/loader.css" />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Responsive/Mobile View Styles -->
+    <link rel="stylesheet" href="css/allSize.css" />
+
+    <!-- Login Script (deferred to load after the document) -->
+    <script defer src="js/login_dj.js"></script>
+
+    <!-- !no_script -->
+    <noscript>
+      your browser does not support javascript:(
+      <a href="https://www.google.com/chrome/">download chrome</a>
+      <a href="https://www.mozilla.org/en-US/firefox/new/">download firefox</a>
+      <a href="https://www.microsoft.com/en-us/windows/microsoft-edge"
+        >download edge</a
+      >
+      <a href="https://www.opera.com/download/">download opera</a>
+      <a href="https://support.apple.com/en-us/HT201265">download safari</a>
+    </noscript>
+  </head>
+
+  <body>
+    <div class="main_body_loader">
+      <span class="loader"></span>
+      <div class="loading">
+        <span class="load_1">L</span><span class="load_2">o</span
+        ><span class="load_3">a</span><span class="load_4">d</span
+        ><span class="load_5">i</span><span class="load_6">n</span
+        ><span class="load_7">g</span><span class="load_8">.</span
+        ><span class="load_9">.</span><span class="load_10">.</span>
+      </div>
+    </div>
+    <div id="main">
+      <div class="wrapper_main_body">
+        <div id="left">
+          <div class="left_main_page">
+            <div class="left_box_1">
+              <div class="box1_Txt">
+                <p>
+                  <span class="typing_left"></span><span class="line">|</span>
+                </p>
+              </div>
+            </div>
+            <div class="left_box_2">
+              <div class="list">
+                <ul>
+                  <li class="big_r">
+                    <a class="hover_active left_a" href="#nav_Home">Home</a>
+                  </li>
+                  <li class="big_r">
+                    <a class="left_a" href="#nav_About">About</a>
+                  </li>
+                  <li class="big_r">
+                    <a class="left_a" href="#nav_Skills">Skills</a>
+                  </li>
+                  <li class="big_r">
+                    <a class="left_a" href="#nav_Project">Project</a>
+                  </li>
+                  <li class="big_r">
+                    <a class="left_a" href="#nav_Services">Services</a>
+                  </li>
+                  <li class="big_r">
+                    <a class="left_a" href="#nav_Contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="left_box_3">
+              <div class="box3_color">
+                <div class="container">
+                  <label class="toggle" for="switch">
+                    <input id="switch" class="input" type="checkbox" />
+                    <div class="ms_icon icon--moon">
+                      <i class="ri-moon-fill big_r"></i>
+                    </div>
+
+                    <div class="ms_icon icon--sun">
+                      <i class="ri-sun-fill big_r"></i>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right">
+          <div class="change">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox" class="toggle big_r">
+              <div class="bar bar--top"></div>
+              <div class="bar bar--middle"></div>
+              <div class="bar bar--bottom"></div>
+            </label>
+          </div>
+
+          <div class="right_main_page">
+            <section class="sec sec1">
+              <div class="page sec_home" id="nav_Home">
+                <div class="text_sec_home_box">
+                  <div class="h_text">
+                    <div class="i">
+                      <p>Hii I'm</p>
+                    </div>
+                    <div class="ii">
+                      <p><span class="about_me_home"></span><span>|</span></p>
+                    </div>
+                  </div>
+                  <div class="cv_btn">
+                    <div class="btn1">
+                      <a href="cv.txt">
+                        <button class="buttonDownload big_r">
+                          download cv
+                        </button>
+                      </a>
+                    </div>
+
+                    <div class="btn2">
+                      <a href="#nav_Contact">
+                        <button class="button big_r">
+                          contact me
+                          <svg
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            class="icon"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                              fill-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="img_sec_home_box">
+                  <div class="img mask-target">
+                    <img src="./assets/img_mine.jpg" alt="_Fatty_" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="sec sec2">
+              <div class="page" id="nav_About">
+                <div class="about_nav_con big_r">
+                  <p class="big_r" id="about_title"></p>
+                  <p id="about_intro" class="hover-target"></p>
+
+                  <p id="about_education"></p>
+                  <p id="about_passion"></p>
+                  <p id="about_future"></p>
+                  <p id="about_contact"></p>
+                </div>
+              </div>
+            </section>
+            <section class="sec sec3">
+              <div class="page" id="nav_Skills"></div>
+            </section>
+            <section class="sec sec4">
+              <div class="page" id="nav_Project">
+                <div class="project_all">
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a
+                          ><img
+                            src="./assets/fatty_askLove.png"
+                            alt="_fatty_img"
+                        /></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          ><img
+                            src="./assets/fatty_canvas.png"
+                            alt="_fatty_img"
+                        /></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          ><img src="./assets/fatty_clock.png" alt="_fatty_img"
+                        /></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          ><img src="./assets/fatty_img.png" alt="_fatty_img"
+                        /></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          ><img src="./assets/fatty_qr.png" alt="_fatty_img"
+                        /></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          ><img
+                            src="./assets/fatty_weather.png"
+                            alt="_fatty_img"
+                        /></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          ><img src="./assets/my_info.png" alt="_fatty_img"
+                        /></a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          ><img src="./assets/mess_data.png" alt="_fatty_img"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination big_r"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="sec sec5">
+              <div class="page" id="nav_Services"></div>
+            </section>
+            <section class="sec sec6">
+              <div class="page" id="nav_Contact">
+                <div class="page_inner_nav">
+                  <div class="container" id="container">
+                    <div class="small_form">
+                      <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                        class="small_form"
+                      >
+                        <input
+                          type="hidden"
+                          name="access_key"
+                          value="9d9c2978-e2ea-433c-b631-5b0b09e0860c"
+                        />
+                        <h1>Contact Us</h1>
+                        <div class="inputsign">
+                          <input
+                            type="text"
+                            name="user_name"
+                            class="small_form_data small_user"
+                            placeholder="Name"
+                            autocomplete="off"
+                            required
+                          />
+                          <input
+                            type="email"
+                            name="email"
+                            class="small_form_data small_email"
+                            placeholder="Email"
+                            autocomplete="off"
+                            required
+                          />
+                          <input
+                            type="text"
+                            name="subject"
+                            class="small_form_data small_subject"
+                            placeholder="Subject"
+                            autocomplete="off"
+                            required
+                          />
+                          <textarea
+                            name="message"
+                            class="small_form_data small_message"
+                            placeholder="Message"
+                            autocomplete="off"
+                            required
+                          ></textarea>
+                        </div>
+                        <div class="small_form_btn">
+                          <button type="submit" class="small_btn">Send</button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="form-container sign-up display">
+                      <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                      >
+                        <input
+                          type="hidden"
+                          name="access_key"
+                          value="9d9c2978-e2ea-433c-b631-5b0b09e0860c"
+                        />
+                        <h1>Connect Us</h1>
+                        <div class="social-icons">
+                          <a
+                            href="mailto:parthabatabyal30032004@gmail.com"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a
+                            href="https://www.facebook.com/partha.batabyal.503"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a
+                            href="#l"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-github"></i
+                          ></a>
+                          <a
+                            href="https://www.linkedin.com/in/partha09/"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </div>
+                        <div class="inputsign">
+                          <span>Please use your real email</span>
+                          <input
+                            type="text"
+                            placeholder="Name"
+                            name="user_name"
+                            required
+                            autocomplete="off"
+                          />
+                          <input
+                            type="email"
+                            placeholder="Email"
+                            name="email"
+                            required
+                            autocomplete="off"
+                          />
+                          <input
+                            type="text"
+                            placeholder="Message"
+                            name="message"
+                            required
+                            autocomplete="off"
+                          />
+                        </div>
+                        <div class="btnwraUp">
+                          <button type="submit" class="big_r">Send Us</button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="form-container sign-in display">
+                      <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                      >
+                        <input
+                          type="hidden"
+                          name="access_key"
+                          value="9d9c2978-e2ea-433c-b631-5b0b09e0860c"
+                        />
+                        <h1>Bug Report</h1>
+                        <div class="social-icons">
+                          <a
+                            href="mailto:parthabatabyal30032004@gmail.com"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-google-plus-g"></i
+                          ></a>
+                          <a
+                            href="https://www.facebook.com/partha.batabyal.503"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-facebook-f"></i
+                          ></a>
+                          <a
+                            href="#l"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-github"></i
+                          ></a>
+                          <a
+                            href="https://www.linkedin.com/in/partha09/"
+                            class="icon big_r"
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </div>
+                        <div class="inputsign">
+                          <span>Please use your real email</span>
+
+                          <input
+                            type="email"
+                            placeholder="Email"
+                            name="email"
+                            required
+                            autocomplete="off"
+                          />
+                          <input
+                            type="text"
+                            placeholder="Bug description"
+                            name="message"
+                            required
+                            autocomplete="off"
+                          />
+                        </div>
+                        <div class="btnwra">
+                          <!-- <a href="#">Forget Your Password?</a> -->
+                          <button type="submit" class="big_r">
+                            Send Report
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="toggle-container display">
+                      <div class="toggle">
+                        <div class="toggle-panel toggle-left">
+                          <h1>Bug!</h1>
+                          <p>if u found any bugs or problems</p>
+                          <button class="hidden big_r" id="login">
+                            Bug Found
+                          </button>
+                        </div>
+                        <div class="toggle-panel toggle-right">
+                          <h1>Hello, Friend!</h1>
+                          <p>connect with me if you share similar interests.</p>
+                          <button class="hidden big_r" id="register">
+                            connect us
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- *** footer *** -->
+            <footer>
+              <div class="footer-up">
+                <div class="footer-content contact-info-foot">
+                  <h3>_Fatty_</h3>
+                  <div class="txt_foot">
+                    <p>
+                      <a href="tel:+91 7478061740" class="big_r"
+                        ><i class="fa-solid fa-phone"></i> +91 7478061740</a
+                      >
+                    </p>
+                    <p>
+                      <a
+                        href="mailto:parthabatabyal30032004@gmail.com"
+                        class="big_r"
+                        ><i class="fa-solid fa-envelope"></i> gmail
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="footer-content quick-links-foot">
+                  <h3>Quick Links</h3>
+                  <ul class="link_page">
+                    <li class="big_r"><a href="#nav_Home">Home</a></li>
+                    <li class="big_r"><a href="#nav_About">About</a></li>
+                    <li class="big_r"><a href="#nav_Skills">Skills</a></li>
+                    <li class="big_r"><a href="#nav_Project">Project</a></li>
+                    <li class="big_r"><a href="#nav_Services">Services</a></li>
+                    <li class="big_r"><a href="#nav_Contact">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="footer-content soscial_foot">
+                  <h3>Soscial Media</h3>
+                  <ul class="link_page">
+                    <li class="big_r">
+                      <a href="https://www.facebook.com/partha.batabyal.503"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li class="big_r">
+                      <a href="https://x.com/ParthaB50444"
+                        ><i class="fa-brands fa-x"></i>
+                      </a>
+                    </li>
+                    <li class="big_r">
+                      <a href="https://www.instagram.com/_fatty_009/"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li class="big_r">
+                      <a href="https://www.linkedin.com/in/partha09/"
+                        ><i class="fa-brands fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                    <li class="big_r">
+                      <a
+                        href="https://youtube.com/@fat_brain?si=4UQs5EIJo_j0h8-1"
+                        ><i class="fa-brands fa-youtube"></i
+                      ></a>
+                    </li>
+                    <li class="big_r">
+                      <a href="#l"
+                        ><i class="fa-brands fa-github"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-content msg_foot">
+                  <h3>send us a message</h3>
+                  <form action="https://api.web3forms.com/submit" method="POST">
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="9d9c2978-e2ea-433c-b631-5b0b09e0860c"
+                    />
+                    <input
+                      type="email"
+                      autocomplete="off"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                    <input
+                      type="text"
+                      autocomplete="off"
+                      name="message"
+                      id="message"
+                      placeholder="Enter your message"
+                      required
+                    />
+                    <button type="submit" class="big_r">Send</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="footer-down">
+                <p>© 2024 _Fatty_. All Rights Reserved.</p>
+                <a href="#nav_Home" class="back-to-top big_r">Back to Top</a>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <!-- GSAP is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger depends on GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3D Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is for the Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <!-- Shery.js is recommended (put after the dependencies) -->
+    <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <!-- Swiper.js for carousel/slider functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Typed.js for typing effects -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- SMTP.js for sending forms via email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Custom script files (put after external libraries) -->
+    <script src="js/shery_b.js"></script>
+    <script src="js/y.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/Data_Insert.js"></script>
+    <script src="js/smooth_scroll.js"></script>
+  </body>
+</html>

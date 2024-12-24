@@ -1,0 +1,3 @@
+var cv = new CV();
+cv.setName("Your_Brain");
+#🥲
